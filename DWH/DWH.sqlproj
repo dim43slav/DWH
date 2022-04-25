@@ -120,9 +120,11 @@
     <Folder Include="Properties" />
     <Folder Include="Security\" />
     <Folder Include="Dima" />
+    <Folder Include="Schemas" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Permissions.sql" />
     <Build Include="Dima\1st.sql" />
+    <Build Include="Schemas\dima.sql" />
   </ItemGroup>
 </Project>
