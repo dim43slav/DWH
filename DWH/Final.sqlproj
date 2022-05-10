@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>DWH</Name>
+    <Name>Final</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{566cf5d6-8604-4df8-abe3-fe3229414bcb}</ProjectGuid>
@@ -119,11 +119,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Security\" />
-    <Folder Include="Dima" />
+    <Folder Include="Service" />
     <Folder Include="Schemas" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Permissions.sql" />
     <Build Include="Schemas\dima.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_F.publish.xml" />
   </ItemGroup>
 </Project>
