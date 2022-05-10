@@ -1,1 +1,1 @@
-﻿CREATE SCHEMA [Schema1]
+﻿CREATE SCHEMA [tu24]
