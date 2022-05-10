@@ -60,7 +60,6 @@
     <Folder Include="Security" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Schemas\Schema1.sql" />
     <Build Include="Security\Permissions.sql" />
   </ItemGroup>
   <ItemGroup>
