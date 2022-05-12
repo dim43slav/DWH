@@ -125,6 +125,12 @@
   <ItemGroup>
     <Build Include="Security\Permissions.sql" />
     <Build Include="Schemas\dima.sql" />
+    <Build Include="dim_clients.sql" />
+    <Build Include="dim_ASS.sql" />
+    <Build Include="dim_employee.sql" />
+    <Build Include="work_plan.sql" />
+    <Build Include="certificate_completed.sql" />
+    <Build Include="registration_completion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB_F.publish.xml" />

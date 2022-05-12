@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[dim_ASS]
+(
+	[IDService]		INT NOT NULL PRIMARY KEY
+	,[ServiceName]	NVARCHAR(250) NOT NULL
+)
