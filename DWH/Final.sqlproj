@@ -9,8 +9,7 @@
     <ProjectGuid>{566cf5d6-8604-4df8-abe3-fe3229414bcb}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
-    <RootPath>
-    </RootPath>
+    <RootPath />
     <RootNamespace>DWH</RootNamespace>
     <AssemblyName>DWH</AssemblyName>
     <ModelCollation>1049,CI</ModelCollation>
@@ -110,7 +109,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
-    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -121,16 +119,19 @@
     <Folder Include="Security\" />
     <Folder Include="Service" />
     <Folder Include="Schemas" />
+    <Folder Include="tables" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Permissions.sql" />
     <Build Include="Schemas\dima.sql" />
-    <Build Include="dim_clients.sql" />
-    <Build Include="dim_ASS.sql" />
-    <Build Include="dim_employee.sql" />
-    <Build Include="work_plan.sql" />
-    <Build Include="certificate_completed.sql" />
-    <Build Include="registration_completion.sql" />
+    <Build Include="tables\certificate_completed.sql" />
+    <Build Include="tables\dim_ASS.sql" />
+    <Build Include="tables\dim_clients.sql" />
+    <Build Include="tables\dim_employee.sql" />
+    <Build Include="tables\registration_completion.sql" />
+    <Build Include="tables\work_plan.sql" />
+    <Build Include="tables\orders.sql" />
+    <Build Include="tables\calendar.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB_F.publish.xml" />

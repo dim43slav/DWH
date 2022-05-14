@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[work_plan]
 (
-	[IDPlan]		INT NOT NULL PRIMARY KEY
+	[IDOrder]		INT NOT NULL PRIMARY KEY
 	,[IDEmployee]	INT NOT NULL
 	,[IDClient]		INT NOT NULL
 	,[IDService]	INT NOT NULL
