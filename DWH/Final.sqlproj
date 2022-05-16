@@ -120,18 +120,20 @@
     <Folder Include="Service" />
     <Folder Include="Schemas" />
     <Folder Include="tables" />
+    <Folder Include="views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Permissions.sql" />
     <Build Include="Schemas\dima.sql" />
     <Build Include="tables\certificate_completed.sql" />
-    <Build Include="tables\dim_ASS.sql" />
+    <Build Include="tables\dim_services.sql" />
     <Build Include="tables\dim_clients.sql" />
     <Build Include="tables\dim_employee.sql" />
-    <Build Include="tables\registration_completion.sql" />
+    <Build Include="tables\orders_completed.sql" />
     <Build Include="tables\work_plan.sql" />
     <Build Include="tables\orders.sql" />
     <Build Include="tables\calendar.sql" />
+    <Build Include="views\vOrders.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB_F.publish.xml" />

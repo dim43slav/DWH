@@ -5,6 +5,6 @@
 	,[IDClient]		INT NOT NULL
 	,[IDService]	INT NOT NULL
 	,[Amount]		MONEY
+	,[DateStart]	Date
 	,[DatePlan]		Date
-	,[DateCreation] Date NOT NULL
 )

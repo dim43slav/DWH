@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[dim_employee]
 (
-	[IDEmployee]	INT identity(1,1) NOT NULL 
+	[IDEmployee]	INT NOT NULL 
 	,[Name]			NVARCHAR(40)
 	,[Surname]		NVARCHAR(40)
 	,[Email]		NVARCHAR(40)

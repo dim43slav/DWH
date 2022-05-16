@@ -62,6 +62,7 @@
   <ItemGroup>
     <Build Include="Security\Permissions.sql" />
     <Build Include="Security\Procedure1.sql" />
+    <Build Include="sert.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Stage.publish.xml" />
